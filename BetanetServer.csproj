@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chaos.NaCl.Standard" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel.Https" Version="2.3.0" />
+    <PackageReference Include="NaCl.Core" Version="2.0.6" />
+  </ItemGroup>
+
+</Project>
